@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Lab4Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+    <header class="site-header">
+        <h1>Website Saya</h1>
+        <p>Belajar membuat website dengan HTML dan CSS</p>
+    </header>
+
+    <nav>
+        <a href="home.html" class="active">Home</a>
+        <a href="artikel.html">Artikel</a>
+        <a href="about.html">About</a>
+        <a href="kontak.html">Kontak</a>
+    </nav>
+
+    <section id="hero">
+        <h2>Halo, Selamat Datang!</h2>
+        <p>Ini adalah website sederhana untuk Praktikum 4 CSS Layout. Website ini dibuat untuk mempelajari struktur halaman, box element, float, dan elemen semantik HTML5.</p>
+        <a href="about.html" class="btn btn-large">Kenali Saya »</a>
+    </section>
+
+    <section id="wrapper">
+        <main id="main">
+            <div class="row">
+                <section class="box">
+                    <div class="circle-icon">HTML</div>
+                    <h3>HTML</h3>
+                    <p>HTML digunakan untuk menyusun struktur dan konten halaman website.</p>
+                    <a href="artikel.html" class="btn btn-default">Lihat Artikel</a>
+                </section>
+                <section class="box">
+                    <div class="circle-icon blue">CSS</div>
+                    <h3>CSS</h3>
+                    <p>CSS digunakan untuk mengatur warna, jarak, ukuran, dan tata letak website.</p>
+                    <a href="artikel.html" class="btn btn-default">Lihat Artikel</a>
+                </section>
+                <section class="box">
+                    <div class="circle-icon teal">WEB</div>
+                    <h3>Web Design</h3>
+                    <p>Desain web yang rapi membantu pengunjung membaca informasi dengan nyaman.</p>
+                    <a href="artikel.html" class="btn btn-default">Lihat Artikel</a>
+                </section>
+            </div>
+
+            <hr class="divider">
+            <article class="entry">
+                <h2>Mengenal Layout Website</h2>
+                <img src="https://dummyimage.com/150x120/7b8a70/ffffff.png&text=Web+Layout" alt="Ilustrasi web layout">
+                <p>Layout website adalah susunan elemen pada halaman web. Bagian yang umum digunakan antara lain header, navigasi, konten utama, sidebar, dan footer. Dengan layout yang teratur, informasi menjadi lebih mudah ditemukan.</p>
+            </article>
+            <hr class="divider">
+            <article class="entry">
+                <h2>Mengapa CSS Penting?</h2>
+                <img src="https://dummyimage.com/150x120/428bca/ffffff.png&text=CSS" alt="Ilustrasi CSS" class="right-img">
+                <p>CSS membantu memisahkan tampilan dari struktur HTML. Dengan CSS, kita dapat membuat halaman lebih menarik, konsisten, dan mudah disesuaikan untuk berbagai ukuran layar.</p>
+            </article>
+        </main>
+
+        <aside id="sidebar">
+            <div class="widget-box">
+                <h3 class="title">Menu Cepat</h3>
+                <ul>
+                    <li><a href="home.html">Halaman Home</a></li>
+                    <li><a href="artikel.html">Halaman Artikel</a></li>
+                    <li><a href="about.html">Tentang Saya</a></li>
+                    <li><a href="kontak.html">Hubungi Saya</a></li>
+                </ul>
+            </div>
+            <div class="widget-box">
+                <h3 class="title">Tentang Website</h3>
+                <p>Website ini merupakan latihan praktikum pemrograman web menggunakan HTML5 dan CSS3.</p>
+            </div>
+        </aside>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Website Saya | Praktikum 4 CSS Layout</p>
+    </footer>
+</div>
+</body>
+</html>
